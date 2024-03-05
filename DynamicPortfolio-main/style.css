@@ -158,12 +158,14 @@ span{
     margin-bottom: 2rem;
     margin-top: 1rem;
     font-size: 3.5;
+    color:#000;
 }
 .home-content h1{
     font-size: 7rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
+     color:#000;
 }
 .home-img {
     border-radius: 40%;
