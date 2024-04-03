@@ -95,7 +95,7 @@ function insertMessage($fullName, $email, $phoneNumber, $subject, $message)
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <?php
-            $navbarData = fetchData('navbar_table'); // Replace 'navbar_table' with your actual table name
+            $navbarData = fetchData('navbar_table'); 
 
             foreach ($navbarData as $item) {
             ?>
@@ -125,7 +125,7 @@ function insertMessage($fullName, $email, $phoneNumber, $subject, $message)
 
                 <div class="social-icons">
                     <?php
-                    $socialIconsData = fetchData('social_icons'); // Replace 'social_icons' with your actual table name
+                    $socialIconsData = fetchData('social_icons'); 
 
                     foreach ($socialIconsData as $icon) {
                     ?>
@@ -165,7 +165,7 @@ function insertMessage($fullName, $email, $phoneNumber, $subject, $message)
         <h2 class="heading">Projects</h2>
         <div class="projects-container">
             <?php
-            $projectsData = fetchData('projects_table'); // Replace 'projects_table' with your actual table name
+            $projectsData = fetchData('projects_table');
 
             foreach ($projectsData as $project) {
             ?>
@@ -188,7 +188,7 @@ function insertMessage($fullName, $email, $phoneNumber, $subject, $message)
         <h2 class="heading">Education</h2>
         <div class="timeline-items">
             <?php
-            $educationData = fetchData('education_table'); // Replace 'education_table' with your actual table name
+            $educationData = fetchData('education_table');
 
             foreach ($educationData as $educationItem) {
             ?>
@@ -246,7 +246,7 @@ function insertMessage($fullName, $email, $phoneNumber, $subject, $message)
     <footer class="footer">
         <div class="social">
             <?php
-            $socialIconsData = fetchData('social_icons'); // Replace 'social_icons' with your actual table name
+            $socialIconsData = fetchData('social_icons'); 
 
             foreach ($socialIconsData as $icon) {
             ?>
@@ -257,7 +257,7 @@ function insertMessage($fullName, $email, $phoneNumber, $subject, $message)
         </div>
         <ul class="list">
             <?php
-            $footerLinksData = fetchData('footer_links'); // Replace 'footer_links' with your actual table name
+            $footerLinksData = fetchData('footer_links'); 
 
             foreach ($footerLinksData as $link) {
             ?>
